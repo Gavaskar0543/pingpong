@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Fruktur&family=Outfit&family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+  
+   background-color: black;
+   font-family: 'Poppins', sans-serif;
+   
+}
+/* `#outerpart` is a CSS selector that targets an element with the ID `outerpart`. The properties
+`height`, `width`, and `border` are being applied to this element. This will set the height of the
+element to 70% of the viewport height and the width to 80% of the viewport width. It will also give
+the element a white dashed border of 1px. */
+#outerDiv{
+    margin-top:2%;
+height: 70vh;
+width:70vw;
+
+border:1px dashed white;
+
+
+}
+
+/* `.player1,.player2` is a CSS selector that targets both the elements with class `player1` and
+`player2`. The properties `height`, `width`, `border`, and `margin` are being applied to both of
+these elements. This will set the height and width of both elements to 10% of their parent
+container, give them a white border of 1px, and add a margin of 10px around them. */
+.players{
+     height:auto;
+     width:150px;
+    border:1px solid white;
+    margin:10px;
+    position: absolute;
+   border-radius:40px;
+    text-align:center;
+}
+ 
+ 
+ 
+
+#sideBar{
+    align-items: center;
+    background-color: #afd275;
+    display: flex;
+    height: 70vh;
+    width:27vw;
+    float:right;
+    margin-top:-70vh;
+    margin-right:2%;
+   
+  }
+  
+  .element {
+    align-items: center;
+    background-color: #afd275;
+    box-shadow: 
+      12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+      -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-right: 4rem;
+    width: 200px;
+  }
+
+
+
+
